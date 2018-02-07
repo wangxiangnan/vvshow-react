@@ -1,18 +1,17 @@
-import path from 'path';
-import config from '../../config';
+import { imgDirUrl } from '../../config';
 
 const data ={
-  wordBgUrl: `${config.imgDirUrl}/word_bg.jpg`,
+  wordBgUrl: `${imgDirUrl}/word_bg.jpg`,
 
   wordList: [{
     url: 'make/make',
     text: '以一当百',
-    imgPath: path.join(config.imgDirUrl,"/yydb.jpg"),
+    imgPath: `${imgDirUrl}/yydb.jpg`,
     id: 0
   }, {
       url: 'make/make',
       text: '扑朔迷离',
-      imgPath: path.join(config.imgDirUrl,"/psml.jpg"),
+      imgPath: `${imgDirUrl}/psml.jpg`,
       id: 1
   }]
 };

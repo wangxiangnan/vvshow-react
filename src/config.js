@@ -2,8 +2,6 @@
  * react配置文件
  */
 const host = "vvshow.site";
-
-const hostUrl = 'https://vvshow.site';  //线上服务器
 const staticHostUrl = 'https://static.vvshow.site';
 var config = {
 

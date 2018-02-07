@@ -48,6 +48,10 @@ button{
   background: #f3f4f6;
   z-index: -1;
 }
+#root{
+  max-width: 750px;
+  margin: 0 auto;
+}
 /**********        public footer               ******/
 .footer{
   position: fixed;
@@ -62,6 +66,8 @@ button{
   align-items: center;
   background-color: #fff;
   font-size: 12px;
+  max-width: 750px;
+  margin: 0 auto;
 }
 .footer-link{
   display: flex;
@@ -94,7 +100,7 @@ button{
 }
 
 /**********        public word page               ******/
-.word-bg{position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: center top no-repeat; background-size: 100%; background-attachment: fixed; z-index: -1; opacity: .2}
+.word-bg{position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: center top no-repeat; background-size: cover; background-attachment: fixed; z-index: -1; opacity: .2}
 .word{position: relative; z-index: 2;}
 .word-title{
   padding: 20px 0;
@@ -151,8 +157,8 @@ button{
 }
 .item_active{opacity: .5}
 .ani_active{background: eef10c; color: #000;}
-.list_text{bottom: 10px; left: 10px}
-.item_icon{width: 40px; top: 10px; left: 10px;}
+.list_text{position: absolute; bottom: 10px; left: 10px}
+.item_icon{position: absolute; width: 40px; top: 10px; left: 10px;}
 .login_btn{
   position: relative;
   background: none;
