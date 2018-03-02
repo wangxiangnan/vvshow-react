@@ -112,7 +112,7 @@ button{
 
 }
 .menu{display: flex; justify-content: space-between; flex-flow: row wrap; padding: 0 15px;}
-.menu-item{width: 164px; height: 164px; color: #ff2e57; line-height: 164px; background-color: #f2f2f2; margin: 17px 0; border-radius: 8px; background-repeat: no-repeat; background-position: center center; background-size: 100%;}
+.menu-item{width: 46%; padding-top: 46%; color: #ff2e57; background-color: #f2f2f2; margin: 17px 0; border-radius: 8px; background-repeat: no-repeat; background-position: center center; background-size: 100%;}
 
 /**********        public mine page               ******/
 
